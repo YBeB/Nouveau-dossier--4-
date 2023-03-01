@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quizz JS</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <p id="titleQuizz"><strong>Quizz</strong> Culture générale.</p>
+
+  </header>
+  <form>
+    
+  <div class="container">
+    <div class="wrapper">
+    <div class="question">
+      <p class="asked-question">Qui est sacré empereur de France le 2 décembre 1804 ?</p>
+      <div class="answer">
+      <div><input type="radio" id="clovis" value="clovis" name="emperor"><label for="clovis">Clovis</label></div>
+      <div><input type="radio" id="lincoln" value="lincoln" name="emperor"><label for="lincoln">Abraham Lincoln</label>
+      </div>
+      <div><input type="radio" id="napoleon" value="napoleon" name="emperor"><label for="napoleon">Napoleon
+          Bonaparte</label></div>
+        </div>
+    </div>
+    <div class="question">
+      <p class="asked-question">Quand la déclaration d'indépendance des Etats-Unis a-t-elle été votée ?</p>
+      <div><input type="radio" id="1776" value="1776" name="independance"><label for="1776">4 Juillet 1776</label></div>
+      <div><input type="radio" id="1856" value="1856" name="independance"><label for="1856">18 Avril 1856</label></div>
+      <div><input type="radio" id="1925" value="1925" name="independance"><label for="1925">30 Juin 1925</label></div>
+    </div>
+    <div class="question">
+      <p class="asked-question">Quand a eu lieu la chute de l'empire romain d'occident ?</p>
+      <div><input type="radio" id="15" value="15" name="chute"><label for="15">15 ap. J-C</label></div>
+      <div><input type="radio" id="476" value="476" name="chute"><label for="476">476 ap. J-C</label></div>
+      <div><input type="radio" id="-740" value="-740" name="chute"><label for="-740">-740 av. J-C</label></div>
+    </div>
+    <div class="question">
+      <p class="asked-question">Quel est la capitale de la Slovénie ?</p>
+      <div><input type="radio" id="ljubljana" value="ljubljana" name="capitale"><label for="ljubljana">Ljubljana</label></div>
+      <div><input type="radio" id="belgrade" value="belgrade" name="capitale"><label for="belgrade">Belgrade</label></div>
+      <div><input type="radio" id="bratislava" value="bratislava" name="capitale"><label for="bratislava">Bratislava</label></div>
+    </div>
+    <div class="question">
+      <p class="asked-question">Combien d'habitants compte l'Irlande en 2020 ?</p>
+      <div><input type="radio" id="onemillion" value="onemillion" name="people"><label for="onemillion">1.365 Million</label></div>
+      <div><input type="radio" id="twentyonemillion" value="twentyonemillion" name="people"><label for="twentyonemillion">21 Millions</label></div>
+      <div><input type="radio" id="fourmillion" value="fourmillion" name="people"><label for="fourmillion">4.9 Millions</label></div>
+    </div>
+  </div>
+    <button>VALIDER✔️</button>
+  </div>
+</form>
+  <script src="app.js"></script>
+  <p id="results"> Cliquez valider pour valider le resultats</p>
+</body>
+
+</html>
